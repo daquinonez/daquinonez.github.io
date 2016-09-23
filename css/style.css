@@ -1,5 +1,14 @@
 /*font-family: 'Shadows Into Light', cursive;
  font-family: 'Indie Flower', cursive;
+
+
+
+font-family: 'Roboto Condensada', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Lato', sans-serif;
+
+
+
 */
 
 #contenidos{
@@ -8,36 +17,38 @@
 	margin: auto;
 	position: relative;
 	
+	
 
 }
 
 
 /*ETIQUETAS*/
 body{
-background-image: url(../img/fondo.jpg);
+background-image: url(../img/yellow-side-gradient-background.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+
 }
 
 h1{
-font-family: 'Shadows Into Light', cursive;
-color: white;
+font-family: font-family: 'Shadows Into Light', cursive;
+color: black;
 margin-left: 10px;
-font-size: 60px;
+font-size: 23px;
 text-align: center; 
 }
 
 h2{
 font-family: 'Indie Flower', cursive;
-color: white;
+color: yellow;
 margin-left: 10px;
-font-size: 20px;
+font-size: 50px;
 text-align: left; 
 }
 
 h3{
 font-family: 'Shadows Into Light', cursive;;
-color: white;
+color: black;
 font-size: 30px;
 text-align: center; 
 }
@@ -49,11 +60,7 @@ header{
 	background: rgba(255, 255, 255, 10,70);
 }
 
-nav{
-width: 1000px;
-height: 50px;
-background: red;
-border-radius: 10px;
+
 
 }
 ul{
@@ -65,7 +72,7 @@ li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
-	background: black;
+	background: gray;
 	margin: 3px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px white inset; 
@@ -74,7 +81,7 @@ li{
 
 section{
 	width: 700px;
-	background: gray;
+	background: white;
 	height: 600px;
 	float: left;
 	margin-top: 20px;
@@ -91,15 +98,7 @@ aside{
 	border-radius: 10px;
 }
 
-footer{
-width: 1000px;
-height: 70px;
-background: maroon;
-float: left;
-margin-top: 20px;
-border-radius: 10px;
-margin-bottom: 20px;
-}
+
 
 p{
 
@@ -110,7 +109,13 @@ p{
 	text-align: justify;
 }
 
+footer{
 
+
+	width: 1000px;
+	height: 30px
+	background:;
+}
 
 
 /*CLASES*/
